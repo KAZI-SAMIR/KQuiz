@@ -1,0 +1,140 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", Monospace;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.result{
+  
+    margin: 10px;
+    padding: 5px;
+    width:80vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 50px;
+      
+}
+
+
+.quiz-container {
+  background-color: black;
+  color: cyan;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  overflow: hidden;
+  width: 600px;
+  max-width: 80%;
+  animation: rainbow 5s infinite;
+  
+}
+
+.app-name::first-letter {
+   color: red;
+   font-size: xx-large;
+  }
+.app-name {
+  font-size: 2.1rem;
+  animation: rainbow 5s infinite;
+}
+ @keyframes rainbow {
+	from, to { box-shadow: 0 0 15px 0 red }
+	16% { box-shadow: 0 0 12px 0  yellow }
+	32% { box-shadow: 0 0 12px 0  green }
+	48% { box-shadow: 0 0 12px 0  orange }
+	64% { box-shadow: 0 0 12px 0  blue }
+	80% { box-shadow: 0 0 12px 0  fuchsia }
+}
+
+.quiz-header {
+  padding: 3rem;
+}
+
+
+h2 {
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 2rem 0;
+  padding: 1rem;
+}
+
+ul li label {
+  cursor: block;display: block;
+  padding: 0.5rem;
+}
+
+button {
+  background-color: #8e44ad;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-family: inherit;
+  font-size: 1.1rem;
+  width: 100%;
+  padding: 1.3rem;
+  animation: rainbow 5s infinite;
+}
+
+button:hover {
+  background-color: #732d91;
+}
+
+
+button:focus {
+  background-color: #5e3370;
+  outline: none;
+}
+
+
+
+
+/* input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 5px solid white;
+    }
+
+    input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #ffa500;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    } */
